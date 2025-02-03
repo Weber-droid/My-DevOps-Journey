@@ -24,7 +24,7 @@
 | 02  | Helm                      | Learn how to use Helm for package management. |
 | 02  | Practice and Review        | Deploy a multi-container app on Kubernetes. |
 
-## Week 3: CI/CD Pipelines
+## Day 3: CI/CD Pipelines
 **Goal:** Learn CI/CD tools like Jenkins and GitHub Actions.
 
 | Day | Topic                     | Tasks                                               |
