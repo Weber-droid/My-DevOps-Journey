@@ -51,6 +51,21 @@
 
 **Outcome:** A Terraform-managed AWS infrastructure.
 
+## Ansible Project
+
+**Project:** Automate Server Configuration with Ansible
+
+- **Objective:** Use Ansible to automate the configuration of a Linux server.
+
+### Tasks:
+- Install Ansible on your local machine or a management server.
+- Write an Ansible playbook to configure a web server (e.g., Apache or Nginx).
+- Use Ansible roles to manage different configurations (e.g., security settings, software installation).
+- Automate the deployment of a multi-tier application (e.g., web server and database).
+
+**Outcome:** A fully automated and configured server using Ansible.
+
+
 ## Monitoring and Logging Project
 
 **Project:** Monitor a Live Application
