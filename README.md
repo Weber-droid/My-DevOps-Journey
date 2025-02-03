@@ -36,3 +36,31 @@
 | 03  | Advanced CI/CD             | Integrate testing and deployment into your pipeline. |
 | 03  | Monitoring CI/CD Pipelines | Learn how to monitor and debug CI/CD pipelines. |
 | 03  | Practice and Review        | Build a CI/CD pipeline for a full-stack app. |
+
+## Day 4: Infrastructure as Code (IaC)
+**Goal:** Learn Terraform for IaC.
+
+| Day | Topic                     | Tasks                                               |
+|-----|---------------------------|-----------------------------------------------------|
+| 43  | Introduction to IaC        | Learn what IaC is and why it’s important. |
+| 44  | Terraform Basics           | Install Terraform and write your first configuration file. |
+| 45  | Terraform State Management | Learn about Terraform state and remote backends. |
+| 46  | Terraform Modules          | Create and use Terraform modules. |
+| 47  | Terraform with AWS         | Provision AWS resources using Terraform. |
+| 48  | Terraform Best Practices   | Learn Terraform best practices (e.g., versioning, modularization). |
+| 49  | Practice and Review        | Deploy a full infrastructure using Terraform. |
+
+## Day 5: Monitoring and Logging
+**Goal:** Learn monitoring and logging tools.
+
+| Day | Topic                     | Tasks                                               |
+|-----|---------------------------|-----------------------------------------------------|
+| 05  | Introduction to Monitoring | Learn the importance of monitoring in DevOps. |
+| 05  | Prometheus                 | Install Prometheus and set up basic monitoring. |
+| 05  | Grafana                    | Create dashboards in Grafana using Prometheus data. |
+| 05  | ELK Stack                  | Set up Elasticsearch, Logstash, and Kibana for logging. |
+| 05  | CloudWatch                 | Learn how to use AWS CloudWatch for monitoring. |
+| 05  | Alerting                   | Set up alerts in Prometheus and CloudWatch. |
+| 05  | Practice and Review        | Monitor a live application using Prometheus and Grafana. |
+
+
