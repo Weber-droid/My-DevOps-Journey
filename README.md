@@ -24,3 +24,15 @@
 | 02  | Helm                      | Learn how to use Helm for package management. |
 | 02  | Practice and Review        | Deploy a multi-container app on Kubernetes. |
 
+## Week 3: CI/CD Pipelines
+**Goal:** Learn CI/CD tools like Jenkins and GitHub Actions.
+
+| Day | Topic                     | Tasks                                               |
+|-----|---------------------------|-----------------------------------------------------|
+| 03  | Introduction to CI/CD      | Learn the concepts of Continuous Integration and Continuous Deployment. |
+| 03  | Jenkins Basics             | Install Jenkins and create a simple pipeline. |
+| 03  | Jenkinsfile                | Write a Jenkinsfile for a CI/CD pipeline. |
+| 03  | GitHub Actions             | Create a GitHub Actions workflow for a simple app. |
+| 03  | Advanced CI/CD             | Integrate testing and deployment into your pipeline. |
+| 03  | Monitoring CI/CD Pipelines | Learn how to monitor and debug CI/CD pipelines. |
+| 03  | Practice and Review        | Build a CI/CD pipeline for a full-stack app. |
