@@ -1,0 +1,19 @@
+- name: Build and push Docker image
+  hosts: localhost
+  tasks:
+    - name: Build Docker image
+      docker_image:
+        name: "{{ ecr_repo }}/flask-app"
+        tag: latest
+        source: build
+        build:
+          path: ../app
+    - name: Log in to ECR
+      shell: aws ecr get-login-password --region us-east-1 | docker login --username AWS --password-stdin {{ ecr_repo }}
+    - name: Push Docker image
+      docker_image:
+        name: "{{ ecr_repo }}/flask-app"
+        tag: latest
+        push: yes
+  vars:
+    ecr_repo: "<your-ecr-repo>"  # Replace with your ECR URL
